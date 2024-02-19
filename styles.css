@@ -1,48 +1,527 @@
 body{
-    background-color: aquamarine;
+    background: rgb(187, 247, 227);
+    display: flex ;
+    flex-direction: column;
+    flex-wrap:wrap;
+    box-sizing: border-box;
+
+
+
+   
 }
 
 
 .flex-container{
-    display: flex;
     background-color: rgb(46, 38, 38);
-    padding: 5px;
+    padding: 10px 30px; 
+    height: auto;
+    
 
-    flex-flow: row wrap;
+
+    display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
-}
-.caja {
-    background-color: khaki;
-    color:antiquewhite;
-    margin: 5px;
-    padding: 10px;
-    width: 120px;
-    height: 50px;
+    flex-direction: column;
+    flex-wrap:wrap;
+    box-sizing: border-box;
+
+
+    
 }
 
-@media(max-width: 300px){
-    .flex-container{
-        flex-direction: column;
-    }
+
+.cajaprincipal {
+    display: flex;
+    background-color: rgb(237, 232, 186);
+    color:rgb(237, 43, 59);
+    
+    padding: 5px 20px;
+    
+    width: 100%;
+    height: 50px;
+    align-items:center;
+    justify-content: center;
+    
 }
 
 .c1{
    background: lightblue;
-   flex-grow: 1;
+   margin: 5px;
+   width: 25%;
+   height: 20px;
 
 }
+/*span {
+    background-color: rgb(255 255 255 / 50%);
+}*/
 
 .c2{
-    background: rgb(52, 118, 140);
-    width: 350px;
-    flex-grow: 2;
+    background-color: rgb(52, 118, 140);
+    margin: 5px;
+    width: 50%;
+    height: 20px;
  
  }
  .c3{
     background: rgb(58, 86, 96);
-    flex-grow: 1;
+    margin: 5px;
+    width: 25%;
+    height: 20px;
+
  
  }
+
+ 
+
+ .cajaprincipal2{
+    display: flex;
+    background-color: rgb(237, 232, 186);
+    color:rgb(237, 43, 59);
+    margin-top: 10px;
+    
+    padding: 5px 20px;
+    
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+       
+    
+ }
+
+ .c4 {
+    background: rgb(240, 186, 94);
+    margin: 5px;
+    width:100%;
+    height: 20px;
+}
+   
+
+
+
+/*.c4{
+    background: rgb(52, 118, 140);
+    width: 350px;
+    flex-grow: 2;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    
+    
+  
+}*/
+
+.flex-container2{
+    background-color: rgb(46, 38, 38);
+    padding: 10px 10px; 
+    margin-top: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+
+    
+}
+
+.cajaprincipal1 {
+    display: flex;
+    background-color: rgb(102, 101, 91);
+    color:rgb(237, 43, 59);
+    
+    padding: 5px 20px;
+    margin-right: 10px;
+    
+    
+    width: 70%;
+    height: 100px;
+    align-items:center;
+    justify-content:center;
+    
+    flex-wrap:wrap;
+
+    
+}
+
+
+
+.subcaja1{
+    display: flex;
+    margin: 5px;
+    width: 100%;
+    height: 20px;
+    align-items:center;
+
+
+
+}
+
+.c5 {
+    background: rgb(183, 201, 207);
+    margin: 5px;
+    width: 50%;
+    height: 20px;
+
+}
+
+.c6 {
+    background: rgb(183, 201, 207);
+    margin: 5px;
+    width: 50%;
+    height: 20px;
+
+}
+
+
+.subcaja2{
+    display: flex;
+    margin: 5px;
+    width: 100%;
+    height: 20px;
+    align-items:center;
+
+
+
+}
+.c7 {
+    background: rgb(183, 201, 207);
+    margin: 5px;
+    width: 50%;
+    height: 20px;
+    
+
+
+}
+
+.c8 {
+    background: rgb(183, 201, 207);
+    margin: 5px;
+    width: 50%;
+    height: 20px;
+    
+
+}
+
+.subcaja3{
+    display: flex;
+    margin: 5px;
+    width: 100%;
+    height: 20px;
+    align-items:center;
+}
+
+.c9 {
+    background: rgb(183, 201, 207);
+    margin: 5px;
+    width: 100%;
+    height: 20px;
+}
+
+.cajaprincipal22 {
+    display: flex;
+    background-color: rgb(110, 109, 99);
+    color:rgb(237, 43, 59);
+    
+    padding: 5px 20px;
+    
+    width: 25%;
+    height: 100px;
+    align-items:center;
+    justify-content: right;
+    flex-direction:column;
+
+}
+
+.c10 {
+    background: rgb(141, 208, 230);
+    margin: 5px;
+    width: 100%;
+    height: 20px;
+}
+
+.c11 {
+    background: rgb(141, 208, 230);
+    margin: 5px;
+    width: 100%;
+    height: 20px;
+}
+
+.flex-container3{
+    background-color: rgb(46, 38, 38);
+    padding: 10px 30px; 
+    margin-top: 20px;
+    height: auto;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+
+}
+
+.cajaprincipal3 {
+    display: flex;
+    background-color: rgb(128, 176, 196);
+    color:rgb(237, 43, 59);
+    
+    padding: 5px 20px;
+    
+    
+    width: 100%;
+    height: 20px;
+    align-items:center;
+    
+    
+}
+
+@media(max-width: 850px) and (orientation: portrait){
+    .flex-container2{
+        background-color:rgb(90, 69, 80);
+        flex-direction: column;
+        justify-content:center;
+        display: flex;
+        height: auto;
+
+
+        
+    }
+    .cajaprincipal1{
+    display:flex;
+    background-color: rgb(102, 101, 91);
+    color:rgb(237, 43, 59);
+    
+    
+    flex-basis: 100%;
+    margin-right: 0px;
+
+    
+    
+    width: 95%;
+    height: 100px;
+    align-items:center;
+    justify-content: center;
+        
+    align-content: center;
+    flex-wrap:wrap;
+    }
+
+    .cajaprincipal22{
+        margin-top: 10px;
+
+        display:flex;
+        background-color: rgb(102, 101, 91);
+        color:rgb(237, 43, 59);
+        flex-basis: 100%;
+        
+        
+        width: 95%;
+        height: 100px;
+        align-items:center;
+        justify-content: center;
+            
+        align-content: center;
+        flex-wrap:wrap;
+        }
+   
+
+    
+
+    }
+    @media(max-width: 400px) and (orientation: portrait){
+        .flex-container{
+            background:rgb(162, 43, 108);
+            flex-direction: column;
+    
+        }
+        .cajaprincipal{
+            flex-direction: column;
+            display: flex;
+            background-color: rgb(237, 232, 186);
+            color:rgb(237, 43, 59);
+            padding: 30px 20px;
+        
+    
+     
+            width: 100%;
+           
+            align-items:center;
+            justify-content: center;
+        }
+        .c1{
+            background: lightblue; 
+            width: 100%;
+            height: 20px;
+            margin: 5px;
+            
+         }
+         
+         .c2{
+             background-color: rgb(52, 118, 140);    
+             width: 100%;
+             height: 20px;
+             margin: 5px;
+            
+          
+          }
+          .c3{
+             background: rgb(58, 86, 96);    
+             width: 100%;
+             height: 20px;
+             margin: 5px;
+         
+          
+          }
+          .flex-container2{
+            background-color: rgb(46, 38, 38);
+            padding: 10px 10px; 
+            margin-top: 20px;
+            height: auto;
+            flex-direction: column;
+            flex-wrap:wrap;
+        
+        
+        
+        
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+        
+            
+        }
+        
+        .cajaprincipal1 {
+            display: flex;
+            background-color: rgb(102, 101, 91);
+            color:rgb(237, 43, 59);
+            flex-direction: column;
+    
+            
+            padding: 1px 5px;
+            
+            
+            
+            width: 95%;
+            height: 100px;
+            align-items:center;
+            justify-content:center;
+            flex-wrap:wrap;
+            
+        
+            
+        }
+        .subcaja1{
+            display: flex;
+            margin: 5px;
+            width: 100%;
+            height: 20px;
+            align-items:center;
+            flex-direction: column;
+    
+        
+        
+        
+        }
+        
+        .c5 {
+            background: rgb(183, 201, 207);
+            margin: 5px;
+            width: 100%;
+            height: 20px;
+        
+        }
+        
+        .c6 {
+            background: rgb(183, 201, 207);
+            margin: 5px;
+            width: 100%;
+            height: 20px;
+        
+        }
+        
+        
+        .subcaja2{
+            display: flex;
+            margin: 5px;
+            width: 100%;
+            height: 20px;
+            align-items:center;
+            flex-direction: column;
+    
+        
+        
+        
+        }
+        .c7 {
+            background: rgb(183, 201, 207);
+            margin: 5px;
+            width: 100%;
+            height: 20px;
+            
+        
+        
+        }
+        
+        .c8 {
+            background: rgb(183, 201, 207);
+            margin: 5px;
+            width: 100%;
+            height: 20px;
+            
+        
+        }
+        
+        .subcaja3{
+            display: flex;
+            margin: 5px;
+            width: 100%;
+            height: 20px;
+            align-items:center;
+            flex-direction: column;
+        }
+        
+        .c9 {
+            background: rgb(183, 201, 207);
+            margin: 5px;
+            width: 100%;
+            height: 20px;
+        }
+
+        .cajaprincipal22 {
+            display: flex;
+            background-color: rgb(110, 109, 99);
+            color:rgb(237, 43, 59);
+            
+            padding: 1px 5px;
+            
+            width: 95%;
+            height: 100px;
+            align-items:center;
+            justify-content: right;
+            flex-direction:column;
+        
+        }
+        
+        .c10 {
+            background: rgb(141, 208, 230);
+            margin: 5px;
+            width: 100%;
+            height: 20px;
+        }
+        
+        .c11 {
+            background: rgb(141, 208, 230);
+            margin: 5px;
+            width: 100%;
+            height: 20px;
+        }
+        
+        
+    
+    }    
+
 
